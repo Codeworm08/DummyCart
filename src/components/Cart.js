@@ -1,7 +1,6 @@
 import '../App.css'
-import {useState, useEffect, useContext} from 'react'
-import { useNavigate, Link } from 'react-router-dom';
-import {useLocation} from 'react-router-dom';
+import { useContext} from 'react'
+import {  Link } from 'react-router-dom';
 import CartContext from '../CartContext';
 function Cart()
 {
